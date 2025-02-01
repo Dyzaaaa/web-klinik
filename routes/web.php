@@ -22,6 +22,14 @@ Route::get('/dokter/datakunjungan', function () {
     return view('dokter.datakunjungan'); 
 })->name('dokter.datakunjungan');
 
+Route::get('/dokter/rekammedis', function () {
+    return view('dokter.rekammedis'); 
+})->name('dokter.rekammedis');
+
+Route::get('/dokter/resep', function () {
+    return view('dokter.resep'); 
+})->name('dokter.resep');
+
 Route::get('/apoteker/dashboard', function () {
     return view('apoteker.dashboard');
 })->name('apoteker.dashboard');

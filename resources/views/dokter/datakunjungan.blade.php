@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chart Example</title>
+  <title>Klinik Buah Hati</title>
   @vite('resources/css/app.css') 
   <!-- Flowbite & Tailwind CSS -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -20,7 +20,7 @@
   <main class="lg:ml-64 md:ml-48 pt-10 px-4">
   <div class="max-w-6xl w-full bg-white rounded-lg shadow p-6 md:p-8"> <!-- Perbesar lebar kontainer -->
     <div class="flex justify-center mb-4">
-      <h1 class="center text-3xl font-bold dark:text-white">Tabel Antrean Pasien</h1>
+      <h1 class="center text-2xl font-bold dark:text-white">Tabel Antrean Pasien</h1>
     </div>
 
 <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -64,7 +64,7 @@
                     087666666666
                 </td>
                 <td class="px-6 py-4">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Resep</a>
+                    <a href="resep" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Resep</a>
                 </td>
             </tr>
         </tbody>
