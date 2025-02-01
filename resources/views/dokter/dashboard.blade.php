@@ -17,7 +17,7 @@
   <!-- Include Navbar -->
   @include('layouts.dokter')
 
-  <main class="lg:ml-64 md:ml-48 pt-16 px-4">
+  <main class="lg:ml-64 md:ml-48 pt-10 px-4">
   <div class="max-w-6xl w-full bg-white rounded-lg shadow p-6 md:p-8"> <!-- Perbesar lebar kontainer -->
     <div class="flex justify-between mb-4">
       <div>

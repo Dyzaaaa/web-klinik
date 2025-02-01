@@ -20,7 +20,7 @@
   <main class="lg:ml-64 md:ml-48 pt-10 px-4">
   <div class="max-w-6xl w-full bg-white rounded-lg shadow p-6 md:p-8"> <!-- Perbesar lebar kontainer -->
     <div class="flex justify-center mb-4">
-      <h1 class="center text-3xl font-bold dark:text-white">Jadwal Dokter</h1>
+      <h1 class="center text-3xl font-bold dark:text-white">Tabel Antrean Pasien</h1>
     </div>
 
 <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -28,37 +28,50 @@
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
                 <th scope="col" class="px-6 py-3">
-                    TANGGAL
+                    NO
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    DOKTER
+                    NAMA
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    WAKTU
+                    USIA
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    TUGAS
+                    NIK
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    NO. HP
+                </th>
+                <th scope="col" class="px-6 py-3">
                 </th>
             </tr>
         </thead>
         <tbody>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    8 Februari 2025
+                    1
                 </th>
                 <td class="px-6 py-4">
-                    Dr. Heart
+                    Draco Malfoy
                 </td>
                 <td class="px-6 py-4">
-                    07.00-15.00
+                    21
                 </td>
                 <td class="px-6 py-4">
-                    Pemeriksaan Umum
+                    6666666666666
+                </td>
+                <td class="px-6 py-4">
+                    087666666666
+                </td>
+                <td class="px-6 py-4">
+                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Resep</a>
                 </td>
             </tr>
         </tbody>
     </table>
 </div>
+
+
 
 </body>
 </html>
