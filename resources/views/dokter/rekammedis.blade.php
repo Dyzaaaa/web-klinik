@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Klinik Buah Hati</title>
   @vite('resources/css/app.css') 
-  <!-- Flowbite & Tailwind CSS -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <link href="https://cdn.jsdelivr.net/npm/flowbite/dist/flowbite.min.css" rel="stylesheet">
@@ -14,11 +13,10 @@
 </head>
 <body class="bg-gray-100">
 
-  <!-- Include Navbar -->
   @include('layouts.dokter')
 
   <main class="lg:ml-64 md:ml-48 pt-10 px-4">
-  <div class="max-w-6xl w-full bg-white rounded-lg shadow p-6 md:p-8"> <!-- Perbesar lebar kontainer -->
+  <div class="max-w-6xl w-full bg-white rounded-lg shadow p-6 md:p-8 mb-5"> 
     <div class="flex justify-center mb-4">
       <h1 class="center text-2xl font-bold dark:text-white">Rekam Medis Pasien</h1>
     </div>
@@ -65,7 +63,7 @@
                     Paracetamol
                 </td>
                 <td class="px-6 py-4">
-                    Dr. Malfoy
+                    Dr. Cinta
                 </td>
             </tr>
         </tbody>
